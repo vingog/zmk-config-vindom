@@ -6,10 +6,8 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-/*	#include <layouts/foostan/vindom/5column.dtsi>
- *	#include <layouts/foostan/vindom/6column.dtsi>
- *
- */
+//	#include <layouts/foostan/vindom/5column.dtsi>
+ 	#include <layouts/foostan/vindom/6column.dtsi>
  	&foostan_vindom_6col_layout {
  	   transform = <&default_transform>;
  	};
