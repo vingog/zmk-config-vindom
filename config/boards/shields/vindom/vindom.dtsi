@@ -22,11 +22,11 @@
 //        zephyr,display = &oled;
         zmk,kscan = &kscan0;
 //        zmk,physical-layout = &foostan_vindom_6col_layout;
-        zmk,physical-layout = keymap_transform0;
+        zmk,physical-layout = &physical_layout0;
 
     };
 
-    default_transform: &keymap_transform0 {
+    default_transform: &physical_layout0 {
         compatible = "zmk,matrix-transform";
         columns = <20>;
         rows = <4>;
