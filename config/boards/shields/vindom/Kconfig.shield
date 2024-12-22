@@ -1,8 +1,8 @@
-# Copyright (c) 2020 Pete Johanson
+# Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_vindom_LEFT
-    def_bool $(shields_list_contains,vindom_left)
+config SHIELD_HELIX_LEFT
+    def_bool $(shields_list_contains,helix_left)
 
-config SHIELD_vindom_RIGHT
-    def_bool $(shields_list_contains,vindom_right)
+config SHIELD_HELIX_RIGHT
+    def_bool $(shields_list_contains,helix_right)

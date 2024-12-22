@@ -2,14 +2,12 @@ file_format: "1"
 id: vindom
 name: vindom
 type: shield
-url: https://github.com/foostan/crkbd/
+url: https://github.com/MakotoKurauchi/vindom
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:
   - keys
   - display
-  - underglow
-  - studio
 siblings:
   - vindom_left
   - vindom_right
