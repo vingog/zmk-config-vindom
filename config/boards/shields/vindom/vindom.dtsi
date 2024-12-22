@@ -7,10 +7,10 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 //	#include <layouts/foostan/vindom/5column.dtsi>
- 	#include <layouts/foostan/vindom/6column.dtsi>
- 	&foostan_vindom_6col_layout {
- 	   transform = <&default_transform>;
- 	};
+// 	#include <layouts/foostan/vindom/6column.dtsi>
+// 	&foostan_vindom_6col_layout {
+// 	   transform = <&default_transform>;
+// 	};
  /*
  *	&foostan_vindom_5col_layout {
  *	    transform = <&five_column_transform>;
@@ -21,7 +21,7 @@
     chosen {
 //        zephyr,display = &oled;
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &foostan_vindom_6col_layout;
+//        zmk,physical-layout = &foostan_vindom_6col_layout;
     };
 
     default_transform: keymap_transform_0 {
