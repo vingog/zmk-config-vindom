@@ -10,9 +10,10 @@
     col-offset = <10>;
 };
 
-&five_column_transform {
-    col-offset = <10>;
-};
+// &five_column_transform {
+//     col-offset = <10>;
+// };
+// 
 
 &kscan0 {
     col-gpios
