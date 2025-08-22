@@ -6,11 +6,6 @@ if SHIELD_VINDOM_LEFT
 config ZMK_KEYBOARD_NAME
     default "vindom"
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif
-
 if SHIELD_VINDOM_LEFT || SHIELD_VINDOM_RIGHT
 
 config ZMK_SPLIT
