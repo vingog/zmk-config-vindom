@@ -24,7 +24,7 @@
 // |           |  Z  |  X  |  C  |  V  |  B  |      |  K  |  M  |  ,  |  .  |  ?   | 
 //             | TAB | left CTRL| SPACE | left SFT |     | BSPC| SPC | ENT | DEL | 
                         bindings = <
-   &kp TAB   &kp CAPSLOCK   &kp T   &kp    &kp X   &kp E   													                                                 &kp J   &kp L  &kp U       &kp Y        &kp PRINTSCREEN    &to 2
+   &kp TAB   &kp CAPSLOCK   &kp T   &kp TILDE   &kp X   &kp E   													                                                 &kp J   &kp L  &kp U       &kp Y        &kp PRINTSCREEN    &to 2
    &kp ESCAPE     &kp A   &kp Q   &kp W   &kp D   &kp R   													                                                 &kp H   &kp N  &kp E       &kp I        &kp O              &to 1
 		          &kp LEFT_SHIFT   &kp A   &kp S   &kp V   &kp F  													                                                 &kp K   &kp M  &kp COMMA   &kp PERIOD   &kp QUESTION  
 										               &kp LEFT_ALT &kp ENTER  &kp SPACE  &kp C       &kp BACKSPACE &kp SPACE &kp ENTER &kp DELETE 
